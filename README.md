@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/EDGARTOYIN/article-preview-component-master))
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://edgartoyin.github.io/article-preview-component-master/))
+- Solution URL: [Add solution URL here]([https://github.com/EDGARTOYIN/article-preview-component-master]
+- Live Site URL: [Add live site URL here]([https://edgartoyin.github.io/article-preview-component-master/]
 
 ### Built with
 
