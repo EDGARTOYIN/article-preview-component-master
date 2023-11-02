@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body
+    class="font-default-ff bg-light-grayish-blue grid min-h-screen place-items-center p-[2.4rem] text-[13px]"
+  >
+    <main>
+      <article
+        class="relative grid max-w-[20rem] overflow-hidden rounded-lg bg-white shadow-md md:max-w-[45rem] md:grid-cols-[auto,1fr] md:overflow-visible"
+      >
+        <img
+          class="h-full w-full object-cover md:max-w-[18rem] md:rounded-l-lg"
+          src="./images/drawers.jpg"
+          alt="hero"
+        />
+        <section class="relative grid gap-3 p-4 px-8">
+          <h1
+            class="text-very-dark-grayish-blue text-base font-bold md:text-xl"
+          >
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="text-desaturated-dark-blue font-[500]">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. Ive got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <div class="mt-3 flex w-full items-center">
+            <div class="flex items-center gap-4">
+              <img
+                class="max-w-[12%] rounded-full"
+                src="./images/avatar-michelle.jpg"
+                alt="img avatar"
+              />
+              <div>
+                <p class="text-very-dark-grayish-blue font-bold">
+                  Michelle Appleton
+                </p>
+                <p class="text-desaturated-dark-blue font-[500]">28 Jun 2020</p>
+              </div>
+            </div>
+            <button
+              class="text-desaturated-dark-blue share-button bg-light-grayish-blue z-10 ml-auto flex aspect-square max-w-full items-center rounded-full p-2"
+            >
+              <i class="fa-solid fa-share"></i>
+            </button>
+          </div>
+          <section
+            class="bg-very-dark-grayish-blue social-container absolute bottom-0 flex w-full gap-2 py-6 md:bottom-[4rem] md:left-[61%] md:w-[55%] md:rounded-md md:py-3"
+          >
+            <div class="tooltiptext ml-7 flex items-center gap-3 md:mx-auto">
+              <span
+                class="text-grayish-blue text-xs uppercase tracking-[0.3rem]"
+                >share</span
+              >
+              <div class="flex gap-3">
+                <img
+                  class="cursor-pointer"
+                  src="./images/icon-facebook.svg"
+                  alt=""
+                />
+                <img
+                  class="cursor-pointer"
+                  src="./images/icon-twitter.svg"
+                  alt=""
+                />
+                <img
+                  class="cursor-pointer"
+                  src="./images/icon-pinterest.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </section>
+        </section>
+      </article>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d9de7fd168.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
